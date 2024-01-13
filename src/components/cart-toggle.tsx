@@ -8,7 +8,7 @@ import { CartSheet } from "./cart-sheet"
 import { useCartStore } from "@/store/cart"
 
 export function CartToggle() {
-  const { actions, state } = useCartStore()
+  const { state } = useCartStore()
   return (
     <CartSheet>
       <Button

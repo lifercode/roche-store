@@ -1,7 +1,7 @@
 'use client'
 
 import { zodResolver } from "@hookform/resolvers/zod"
-import { useForm } from "react-hook-form"
+import { ControllerRenderProps, useForm } from "react-hook-form"
 import * as z from "zod"
 
 import {
@@ -30,16 +30,14 @@ const accountFormSchema = z.object({
 
 type AccountFormValues = z.infer<typeof accountFormSchema>
 
-// This can come from your database or API.
-const defaultValues: Partial<AccountFormValues> = {
-  // name: "Your name",
-  // dob: new Date("2023-01-23"),
+interface FieldProps extends ControllerRenderProps {
+  placeholder: string
 }
 
-function CustomInput(field) {
+function CustomInput(field: FieldProps) {
   return (
     <div className="relative">
-      <Input className={`h-12 ${field.value && 'pt-6'}`} placeholder={field.placeholder} {...field} />
+      <Input className={`h-12 ${field.value && 'pt-6'}`} {...field} />
       {field.value && (
         <p className=" absolute text-xs top-2 left-3.5 text-gray-500">
           {field.placeholder}

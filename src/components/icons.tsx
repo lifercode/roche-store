@@ -4,7 +4,7 @@ import {
   SunMedium,
   Twitter,
   Search,
-  type Icon as LucideIcon,
+  LucideIcon,
   Store,
 } from "lucide-react"
 

@@ -3,13 +3,10 @@
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
-// import { Input } from "@/components/ui/input"
-// import { Label } from "@/components/ui/label"
 import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
   SheetFooter,
   SheetHeader,
   SheetTitle,
@@ -38,9 +35,6 @@ export function CartSheet({ children }: CartSheetProps) {
           <div className="p-5">
         <SheetHeader>
           <SheetTitle>My Cart</SheetTitle>
-          {/* <SheetDescription>
-            {`Make changes to your profile here. Click save when you're done.`}
-          </SheetDescription> */}
         </SheetHeader>
         </div>
         {!Boolean(state.products.length) && (

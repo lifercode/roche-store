@@ -3,8 +3,8 @@ import Link from "next/link"
 import { buttonVariants } from "@/components/ui/button"
 import { ProductsList } from './components/products-list'
 import { getServerSession } from "next-auth"
-import { nextAuthOptions } from "@/app/api/auth/[...nextauth]/route"
 import { revalidateTag } from "next/cache"
+import { nextAuthOptions } from "@/config/auth"
 
 export default async function StorePage() {
   const session = await getServerSession(nextAuthOptions)
