@@ -14,7 +14,7 @@ Run this followed commands:
 # Install dependencies (only the first time)
 pnpm install
 
-# Run the local server at localhost:3000
+# Run the local server at https://roche-store.vercel.app
 pnpm run dev
 
 ```
@@ -26,11 +26,11 @@ pnpm run dev
 
 ## Site map
 
-![http://localhost:3000/mind-map.png](http://localhost:3000/mind-map.png)
+![http://https://roche-store.vercel.app/mind-map.png](http://https://roche-store.vercel.app/mind-map.png)
 
 ## Codebase
 
-![http://localhost:3000/codebase.png](http://localhost:3000/codebase.png)
+![http://https://roche-store.vercel.app/codebase.png](http://https://roche-store.vercel.app/codebase.png)
 
 ## Improvements for the future
 
