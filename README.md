@@ -26,11 +26,11 @@ pnpm run dev
 
 ## Site map
 
-![http://https://roche-store.vercel.app/mind-map.png](http://https://roche-store.vercel.app/mind-map.png)
+![https://roche-store.vercel.app/mind-map.png](https://roche-store.vercel.app/mind-map.png)
 
 ## Codebase
 
-![http://https://roche-store.vercel.app/codebase.png](http://https://roche-store.vercel.app/codebase.png)
+![https://roche-store.vercel.app/codebase.png](https://roche-store.vercel.app/codebase.png)
 
 ## Improvements for the future
 
