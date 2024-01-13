@@ -4,7 +4,7 @@ This project was created to set up an online store for selling test products, us
 
 ## Project Link
 
-Live Demo: [roche-store.vercel.app](https://roche-store.vercel.app)
+Live Demo: [roche-store-lifercode.vercel.app](https://roche-store-lifercode.vercel.app)
 
 ## Setup
 
@@ -14,7 +14,7 @@ Run this followed commands:
 # Install dependencies (only the first time)
 pnpm install
 
-# Run the local server at https://roche-store.vercel.app
+# Run the local server at https://roche-store-lifercode.vercel.app
 pnpm run dev
 
 ```
@@ -26,11 +26,11 @@ pnpm run dev
 
 ## Site map
 
-![https://roche-store.vercel.app/mind-map.png](https://roche-store.vercel.app/mind-map.png)
+![https://roche-store-lifercode.vercel.app/mind-map.png](https://roche-store-lifercode.vercel.app/mind-map.png)
 
 ## Codebase
 
-![https://roche-store.vercel.app/codebase.png](https://roche-store.vercel.app/codebase.png)
+![https://roche-store-lifercode.vercel.app/codebase.png](https://roche-store-lifercode.vercel.app/codebase.png)
 
 ## Improvements for the future
 
